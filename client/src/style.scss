@@ -348,7 +348,10 @@ $lightGreen : #b9e7e7;
 
                     .editor {
                         height: 100%;
+                        max-width: calc(1024px * 0.684);
                         border: none;
+                        white-space: normal;
+                        box-sizing: border-box;
                     }
                 }
             }
